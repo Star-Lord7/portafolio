@@ -18,7 +18,7 @@
     /* Font and Typography */
     --body-font: "Montserrat Alternates", sans-serif;
     --second-font: "Grechen Fuemen", cursive;
-    --biggest-font-size: 2.5rem;
+    --biggest-font-size: 2.1rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -166,7 +166,7 @@ img{
 .perfil{
     position: relative;
     background: var(--conic-gradient);
-    height: 415px;
+    height: 515px;
     border-radius: 2rem;
     padding: 1rem;
     display: grid;
@@ -174,7 +174,7 @@ img{
 }
 
 .perfil__img{
-    width: 280px;
+    width: 380px;
     position: absolute;
     justify-self: center;
     align-self: flex-end;
@@ -295,7 +295,7 @@ img{
 
 .about__image{
     background: var(--conic-gradient);
-    height: 300px;
+    height: 270px;
     border-radius: 2rem;
     display: grid;
     overflow: hidden;
