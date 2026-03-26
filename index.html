@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -55,11 +55,7 @@
         <div class="home__container container grid">
           <!--PERFIL-->
           <div class="perfil">
-            <img
-              src="img/perfil1.png"
-              alt=""
-              class="perfil__img"
-            />
+            <img src="img/perfil1.png" alt="" class="perfil__img" />
 
             <div class="perfil__data">
               <h1 class="perfil__name">Samuel Azucena</h1>
@@ -78,23 +74,22 @@
             </div>
 
             <div class="info__image">
-              <img
-                src="img/perfil2.png"
-                alt=""
-                class="info__img"
-              />
+              <img src="img/perfil2.png" alt="" class="info__img" />
             </div>
 
             <p class="info__description">
-                Soy Técnico en Ingeniería en Computación con enfoque en
-                desarrollo de Software. He trabajado en proyectos académicos y
-                personales utilizando tecnologías como HTML, CSS, JavaScript,
-                React y Node.js en el frontend, y Java con Spring Boot en el
-                backend. 
+              Soy Técnico en Ingeniería en Computación con enfoque en desarrollo
+              de Software. He trabajado con HTML, CSS, JavaScript y React en el
+              frontend, y Node.js (Express y NestJS) y Java (Spring Boot) en el
+              backend.
             </p>
 
             <!--AGREGAR CV-->
-            <a href="assets/SamuelAzucena.pdf" download target="_blank" class="button button__black"
+            <a
+              href="assets/SamuelAzucena.pdf"
+              download
+              target="_blank"
+              class="button button__black"
               >Descargar CV</a
             >
           </div>
@@ -133,11 +128,7 @@
             </div>
 
             <div class="about__image">
-              <img
-                src="img/perfil3.png"
-                alt=""
-                class="about__img"
-              />
+              <img src="img/perfil3.png" alt="" class="about__img" />
             </div>
 
             <p class="about__note"></p>
@@ -150,18 +141,21 @@
             <h2 class="skills__title">Skills</h2>
 
             <div class="skills__items">
-              <img src="assets/skills-html.svg" alt="" class="skills__item" />
-              <img src="assets/skills-css.svg" alt="" class="skills__item" />
-              <img src="assets/skills-javascript.svg" alt="" class="skills__item"/>
-              <img src="assets/skills-tailwind.svg" alt="" class="skills__item" />
-              <img src="assets/skills-react.svg" alt="" class="skills__item" />
-              <img src="assets/skills-nodejs.svg" alt="" class="skills__item" />
-              <img src="assets/skills-express.svg" alt="" class="skills__item" />
-              <img src="assets/skills-java.svg" alt="" class="skills__item" />
-              <img src="assets/skills-springboot.svg" alt="" class="skills__item" />
-              <img src="assets/skills-php.svg" alt="" class="skills__item" />
-              <img src="assets/skills-mongodb.svg"a lt="" class="skills__item"/>
-              <img src="assets/skills-sqlserver.svg" alt="" class="skills__item" />
+              <img src="assets/skills-html.svg" class="skills__item" />
+              <img src="assets/skills-css.svg" class="skills__item" />
+              <img src="assets/skills-javascript.svg" class="skills__item" />
+              <img src="assets/skills-tailwind.svg" class="skills__item" />
+              <img src="assets/skills-react.svg" class="skills__item" />
+              <img src="assets/skills-nodejs.svg" class="skills__item" />
+              <img src="assets/skills-express.svg" class="skills__item" />
+              <img src="assets/skills-nest.svg" class="skills__item" />
+              <img src="assets/skills-java.svg" class="skills__item" />
+              <img src="assets/skills-springboot.svg" class="skills__item" />
+              <img src="assets/skills-php.svg" class="skills__item" />
+              <img src="assets/skills-sqlserver.svg" class="skills__item" />
+              <img src="assets/skills-prisma.svg" class="skills__item" />
+              <img src="assets/skills-mysql.svg" class="skills__item" />
+              <img src="assets/skills-mongodb.svg" class="skills__item" />
             </div>
 
             <p class="skills__description"></p>
@@ -174,6 +168,147 @@
         <h2 class="section__title">Proyectos</h2>
 
         <div class="projects__container container grid">
+          <article class="projects__card">
+            <a href="" target="_blank" class="projects__image">
+              <img src="img/nestjs.png" alt="" class="projects__img" />
+            </a>
+
+            <div class="projects__data">
+              <h3 class="projects__name">Pokedex con NEST</h3>
+              <p class="projects__description">
+                Pequeña API para aprender a usar el framework de NestJS y
+                conocer todos los recursos y fácilidades que ofrece esta
+                técnologia. La API consiste en obtener los pokemons desde la
+                APIPOKEMON V2 y guardarlos en MongoDB, usando támbien un
+                contenedor de Docker.
+              </p>
+
+              <div class="projects__skills">
+                <img
+                  src="assets/skills-nodejs.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-nest.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-typescript.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-mongodb.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+              </div>
+
+              <a
+                href="https://nestjs-pokedex-rbdw.onrender.com/api/v2/pokemon?limit=10"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-link"></i>
+                <span>Ver Proyecto</span>
+              </a>
+              <a
+                href="https://github.com/Star-Lord7/nestjs-pokedex"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-github-line"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <a href="" target="_blank" class="projects__image">
+              <img src="img/alfi.png" alt="" class="projects__img" />
+            </a>
+
+            <div class="projects__data">
+              <h3 class="projects__name">Proyecto ALFI - Bootcamp TICONGLE</h3>
+              <p class="projects__description">
+                La aplicación busca aprovechar la inteligencia artificial
+                generativa (IA) para automatizar la creación, personalización y
+                validación de tarjetas de juego educativas desarrollando un
+                prototipo funcional (MVP) que permite generar automáticamente
+                tarjetas educativas gamificadas usando IA generativa, combinando
+                texto, imágenes y reglas del juego dentro de la estructura de la
+                plataforma Alfi.
+              </p>
+
+              <div class="projects__skills">
+                <img
+                  src="assets/skills-html.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-css.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-tailwind.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-javascript.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-react.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-nodejs.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-express.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-prisma.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-mysql.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+              </div>
+
+              <!-- <a
+                href="https://bienesraicesmvc-production-fbfe.up.railway.app/"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-link"></i>
+                <span>Ver Proyecto</span>
+              </a> -->
+              <a
+                href="https://github.com/Star-Lord7/proyecto-alfi"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-github-line"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
           <article class="projects__card">
             <a href="" target="_blank" class="projects__image">
               <img src="img/img1.jpg" alt="" class="projects__img" />
@@ -300,14 +435,14 @@
                 />
               </div>
 
-              <a
+              <!-- <a
                 href="https://mern-administrador-veterinaria.netlify.app/"
                 target="_blank"
                 class="projects__button"
               >
                 <i class="ri-link"></i>
                 <span>Ver Proyecto</span>
-              </a>
+              </a> -->
               <a
                 href="https://github.com/Star-Lord7/apv_frontend_deploy"
                 target="_blank"
@@ -374,8 +509,68 @@
                 />
               </div>
 
-              <a
+              <!-- <a
                 href="https://bienesraicesmvc-production-fbfe.up.railway.app/"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-link"></i>
+                <span>Ver Proyecto</span>
+              </a> -->
+              <a
+                href="https://github.com/Star-Lord7/BienesRaicesMVC"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-github-line"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <a href="" target="_blank" class="projects__image">
+              <img src="img/img4.png" alt="" class="projects__img" />
+            </a>
+
+            <div class="projects__data">
+              <h3 class="projects__name">Empresa Vanila</h3>
+              <p class="projects__description">
+                Pequeño proyecto de una landing page para una empresa de
+                desarrollo web, con el objetivo de repasar conceptos de HTML,
+                CSS y JavaScript.
+              </p>
+
+              <div class="projects__skills">
+                <img
+                  src="assets/skills-html.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-css.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-javascript.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-php.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+                <img
+                  src="assets/skills-mysql.svg"
+                  alt=""
+                  class="projects__skill"
+                />
+              </div>
+
+              <a
+                href="https://landingpage-empresa-vanila.netlify.app/"
                 target="_blank"
                 class="projects__button"
               >
@@ -383,7 +578,7 @@
                 <span>Ver Proyecto</span>
               </a>
               <a
-                href="https://github.com/Star-Lord7/BienesRaicesMVC"
+                href="https://github.com/Star-Lord7/empresaVanila"
                 target="_blank"
                 class="projects__button"
               >
@@ -443,8 +638,8 @@
               <h3 class="experience__profession">Práctica Profesional</h3>
               <span class="experience__date">Noviembre 2024 - Marzo 2025</span>
               <p class="experience__description">
-                Adecuaciones y mejoras en funcionalidades existentes de
-                la plataforma “Índice de Inclusión Educativa”, trabajando con el
+                Adecuaciones y mejoras en funcionalidades existentes de la
+                plataforma “Índice de Inclusión Educativa”, trabajando con el
                 framework SpringBoot para el Backend y con Angular para el
                 Frontend.
               </p>
@@ -475,36 +670,49 @@
         <div class="estudio__container container grid">
           <article class="estudio__card">
             <div class="estudio__data">
-              <h2 class="estudio__carrera">Ingeniería en Ciencias de la Computación</h2>
-              <h3 class="estudio__institucion">Universidad Don Bosco</h3>
-              <span class="estudio__date">2025 - Actualidad</span>
+              <h2 class="estudio__carrera">
+                Ingeniería en Ciencias de la Computación
+              </h2>
+              <h3 class="estudio__institucion">
+                Universidad Don Bosco (Presencial)
+              </h3>
+              <span class="estudio__date">2025 - Actualidad (41%)</span>
             </div>
           </article>
 
           <article class="estudio__card">
             <div class="estudio__data">
-              <h2 class="estudio__carrera">Licenciatura en Ciencias de la Computación</h2>
-              <h3 class="estudio__institucion">Universidad Salvadoreña Alberto Maferrer</h3>
-              <span class="estudio__date">2025 - Actualidad</span>
+              <h2 class="estudio__carrera">
+                Licenciatura en Ciencias de la Computación
+              </h2>
+              <h3 class="estudio__institucion">
+                Universidad Salvadoreña Alberto Maferrer (Virtual)
+              </h3>
+              <span class="estudio__date">2025 - Actualidad (30%)</span>
             </div>
           </article>
 
-          <article class="estudio__card">
+          <!-- <article class="estudio__card">
             <div class="estudio__data">
-              <h2 class="estudio__carrera">Técnico Superior Universitario en Ciberseguridad</h2>
-              <h3 class="estudio__institucion">Escuela Superior de Innovación y Tecnología</h3>
+              <h2 class="estudio__carrera">
+                Técnico Superior Universitario en Ciberseguridad
+              </h2>
+              <h3 class="estudio__institucion">
+                Escuela Superior de Innovación y Tecnología
+              </h3>
               <span class="estudio__date">2024 - Actualidad</span>
             </div>
-          </article>
+          </article> -->
 
           <article class="estudio__card">
             <div class="estudio__data">
-              <h2 class="estudio__carrera">Técnico en Ingeniería en Computación</h2>
+              <h2 class="estudio__carrera">
+                Técnico en Ingeniería en Computación
+              </h2>
               <h3 class="estudio__institucion">Universidad Don Bosco</h3>
               <span class="estudio__date">Graduado 2024</span>
             </div>
           </article>
-
         </div>
       </section>
 
